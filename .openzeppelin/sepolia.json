@@ -1,0 +1,112 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x4bAa54B14Eb974202D5d477DF124C4A208923267",
+    "txHash": "0x33d9202b052e8f3eb8f0d78c4d19322354542831a99b6fe4f0609b856b7ae73b"
+  },
+  "proxies": [
+    {
+      "address": "0x0570522F4cae654Ca90476660965eCB489C4d2c7",
+      "txHash": "0x563c5069cb859024e3804711a1d55261ec4adb9aa4359478b1b5b9ec6a5d71f3",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "f974eaa95d8f11d1a00ec94525a8616de8a6f1522af453e887697dfecfc8749b": {
+      "address": "0xb4226643F54b5a5d50c2A2CFDCdcc4491f335feb",
+      "txHash": "0x37d2bf1a7b850a517b4f9819c55489b69618d3a20e43301ae7bfaeec9bdb0f5c",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "val",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "logic_contract_V1",
+            "src": "contracts\\logicV1.sol:5"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "logic_contract_V1",
+            "src": "contracts\\logicV1.sol:6"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {}
+      }
+    },
+    "5509d5866b1de814e806e557393d2bf04000020a351f0f30874aa4d2f1f1a6cf": {
+      "address": "0x36D0112e74d23dd73f426f27730CA2df62Cf7129",
+      "txHash": "0xe6c7f51d45c5f9565df32449d5a118188d5eaf68debd43d966eb73b936455c31",
+      "layout": {
+        "solcVersion": "0.8.19",
+        "storage": [
+          {
+            "label": "val",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "logic_Version_2",
+            "src": "contracts\\logicV2.sol:5"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "logic_Version_2",
+            "src": "contracts\\logicV2.sol:6"
+          },
+          {
+            "label": "val_2",
+            "offset": 20,
+            "slot": "1",
+            "type": "t_uint8",
+            "contract": "logic_Version_2",
+            "src": "contracts\\logicV2.sol:7"
+          },
+          {
+            "label": "bytee",
+            "offset": 21,
+            "slot": "1",
+            "type": "t_bytes2",
+            "contract": "logic_Version_2",
+            "src": "contracts\\logicV2.sol:8"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bytes2": {
+            "label": "bytes2",
+            "numberOfBytes": "2"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        },
+        "namespaces": {}
+      }
+    }
+  }
+}
